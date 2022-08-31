@@ -20,18 +20,19 @@
             <p>Super Admin Login</p>
             <form>
               <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username">
+                <input class="form-control" id="username-input" aria-describedby="emailHelp" placeholder="Username">
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input class="form-control" id="password-input" placeholder="Password">
               </div>
-              <button type="submit" class="btn btn-primary">Masuk</button>
             </form>
+            <button class="btn btn-primary" onclick=superAdminValidation()>Masuk</button>
           </div>
         </div>
       </div>
     </div>
   </div>
   <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>
