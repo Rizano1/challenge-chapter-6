@@ -20,7 +20,7 @@ module.exports = {
       jenisKelamin: {
         type: Sequelize.STRING
       },
-      userId: {
+      userGameId: {
         type: Sequelize.INTEGER
       },
       createdAt: {

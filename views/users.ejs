@@ -1,0 +1,30 @@
+<%- include('partials/header') %> 
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>USERS LIST</h1>
+        </div>
+        <div class="user-table">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Username</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <% for( let i = 0; i < data.length; i++ ) { %>
+                        <tr>
+                            <th scope="row"><%= i+1 %> </th>
+                            <td><%= data[i].username %> </td>
+                            <td><button>biodata</button></td>
+                            <td><button>history</button></td>
+                          </tr>
+                    <% } %>
+                </tbody>
+              </table>
+        </div>
+    </div>
+<%- include('partials/footer') %> 

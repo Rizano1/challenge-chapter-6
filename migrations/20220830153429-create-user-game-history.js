@@ -11,7 +11,7 @@ module.exports = {
       skor: {
         type: Sequelize.INTEGER
       },
-      userId: {
+      userGameId: {
         type: Sequelize.INTEGER
       },
       createdAt: {

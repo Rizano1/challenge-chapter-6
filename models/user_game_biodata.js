@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     alamat: DataTypes.STRING,
     tanggalLahir: DataTypes.DATE,
     jenisKelamin: DataTypes.STRING,
-    userId: DataTypes.INTEGER
+    userGameId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'user_game_biodata',
