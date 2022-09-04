@@ -13,7 +13,7 @@ const  superAdminValidation = async () => {
     })
 
     if(resp.status != 401){
-        location.replace('http://localhost:3000/users')
+        location.href ='http://localhost:3000/users'
     } else{
         alert('password salah')
     }
